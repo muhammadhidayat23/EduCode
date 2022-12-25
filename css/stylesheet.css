@@ -1,0 +1,1108 @@
+        /* Google Font */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* End Google Font */
+        
+        body {
+            font-family: 'Poppins';
+        }
+        
+        body,
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        /* Navbar */
+        
+        .navbar {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            justify-content: space-around;
+            padding: 20px;
+            color: #160041;
+            background: linear-gradient(135.74deg, rgba(255, 255, 255, 0.5) 2.83%, rgba(255, 255, 255, 0) 100%);
+            backdrop-filter: blur(15px);
+            z-index: 10;
+        }
+        
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar .logo {
+            font-size: 24px;
+            color: #160041;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        
+        .nav-links li {
+            margin: 0 20px;
+        }
+        
+        .nav-links li a {
+            padding: 6px 16px;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+        
+        .nav-links li a:hover {
+            background-color: #160041;
+            color: white;
+            animation: fadeIn 2s ease;
+        }
+        /* End Navbar */
+        /*Header Index */
+        
+        header {
+            background-image: url(../img/bg-1.png);
+            margin: 0;
+        }
+        
+        .header-content {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        
+        .header-content h1 {
+            font-size: 6vmin;
+            font-weight: 700;
+            padding-top: 130px;
+        }
+        
+        .header-content h2 {
+            font-size: 3vmin;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        
+        .btn-mulai {
+            padding: 8px 15px;
+            background: #703EDB;
+            border-radius: 30px;
+            color: whitesmoke;
+            opacity: 0.8;
+        }
+        
+        .btn-mulai img {
+            margin-bottom: -18px;
+            margin-right: -10px;
+        }
+        
+        .btn-mulai:hover {
+            padding: 10px 20px;
+            opacity: 1;
+            transition: all 0.2s ease-in-out;
+            font-size: 18px;
+        }
+        
+        .cek {
+            display: flex;
+            justify-content: center;
+            margin-bottom: -70px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-55%, -0%);
+        }
+        
+        .cek p {
+            color: #160041;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        /* Tombol Menu Mobile*/
+        
+        .menu-btn {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 40px;
+            cursor: pointer;
+            display: none;
+        }
+        /* End  Tombol Menu Mobile*/
+        /* Box-Glasses */
+        
+        .glass-content {
+            margin-top: 120px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-45%, -0%);
+        }
+        
+        .glass {
+            width: 419px;
+            height: 149.29px;
+            background: linear-gradient(135.74deg, rgba(255, 255, 255, 0.5) 2.83%, rgba(255, 255, 255, 0) 100%);
+            border: 4px solid rgba(241, 241, 241, 0.75);
+            box-sizing: border-box;
+            backdrop-filter: blur(6px);
+            border-radius: 20px;
+            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+            align-items: center;
+            color: #160041;
+            padding: 0px 80px 0px 80px;
+            animation: fadeIn 3s ease;
+        }
+        
+        .glass img {
+            width: 30px;
+        }
+        
+        .glass .teks-glass {
+            padding-left: 20px;
+        }
+        
+        .glass-content .glass {
+            display: flex;
+            justify-content: left;
+        }
+        
+        .glass:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .ellipse1 img {
+            width: 90px;
+            margin-left: -30px;
+            margin-top: -55px;
+            z-index: -1;
+        }
+        
+        .ellipse2 img {
+            width: 150px;
+            margin-left: 320px;
+            margin-top: -235px;
+            margin-bottom: 200px;
+            z-index: -1;
+        }
+        
+        .people-content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding: 0 40px;
+        }
+        
+        .people1 img {
+            width: 377px;
+            height: 369px;
+            margin-top: -20px;
+            margin-left: 20px;
+        }
+        
+        .people2 img {
+            width: 320px;
+            height: 402px;
+            margin-top: -100px;
+            margin-bottom: 50px;
+        }
+        /* End Box-Glasses */
+        /* Kelas Favorit */
+        
+        .class-wrapper {
+            display: flex;
+            justify-content: space-around;
+            background-color: #1D0A44;
+            padding: 20px 60px;
+            width: 900px;
+            height: 180px;
+            align-items: center;
+            border-radius: 50px;
+            margin: 80px auto 0 auto;
+            color: #FFFFFF;
+        }
+        
+        .favorit-class {
+            padding: 0 60px;
+        }
+        
+        .favorit-class h1 {
+            font-weight: 500;
+        }
+        
+        .favorit-class p {
+            font-weight: 300;
+        }
+        
+        .line-vertikal {
+            border-left: 6px solid rgba(255, 255, 255, 0.25);
+            height: 150px;
+            margin-right: 50px;
+        }
+        
+        .category {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .category img {
+            padding: 0 50px;
+        }
+        
+        .category-class p {
+            font-weight: 300;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        
+        .category-class:hover {
+            background-color: #703EDB;
+            border-radius: 30px;
+            padding: 20px 0;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        /* End Kelas Favorit */
+        /* End Header Index */
+        /* Section Style */
+        
+        section {
+            background-image: url(../img/bg-2.svg);
+            margin: 0;
+        }
+        /* End Section Style */
+        /* Tentang EduCode */
+        
+        .tentang {
+            text-align: center;
+        }
+        
+        .logo h1 {
+            padding-top: 60px;
+            font-size: 3vw;
+            font-weight: 700;
+        }
+        
+        .glass-tentang {
+            width: 1000px;
+            height: 823px;
+            background: linear-gradient(125.51deg, rgba(241, 241, 241, 0.35) 2.14%, rgba(241, 241, 241, 0) 100%);
+            border: 5px solid rgba(241, 241, 241, 0.75);
+            box-sizing: border-box;
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            margin: 20px auto 0 auto;
+            padding: 0 100px;
+            box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease;
+        }
+        
+        .glass-tentang h1 {
+            padding-top: 40px;
+            font-weight: 700;
+        }
+        
+        .glass-tentang p {
+            padding-top: 40px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 200%;
+            color: rgba(22, 0, 65, 0.5);
+            animation: slideUp 1.5s forwards 1;
+        }
+        
+        .glass-tentang hr {
+            border: 1px solid rgba(22, 0, 65, 0.25);
+            margin: 50px 0;
+        }
+        
+        .glass-tentang img {
+            filter: drop-shadow(4px 4px 8px rgba(22, 0, 65, 0.15));
+        }
+        
+        .ball-gradient {
+            margin-top: -745px;
+        }
+        
+        .ball-1 img {
+            width: 132px;
+            height: 132px;
+            margin-left: -975px;
+            margin-top: -130px;
+            margin-bottom: 155px;
+        }
+        
+        .ball-2 img {
+            width: 290px;
+            height: 290px;
+            margin-right: -1050px;
+            margin-top: -150px;
+        }
+        
+        .ball-3 img {
+            width: 200px;
+            height: 200px;
+            margin-top: 340px;
+            margin-left: -970px;
+            margin-right: 30px;
+        }
+        /* End Tentang EduCode */
+        /* Ketegori Kelas */
+        
+        .box-gradient {
+            width: 969px;
+            height: 250px;
+            background: linear-gradient(94.67deg, rgba(41, 205, 255, 0.1) 0%, rgba(255, 3, 154, 0.1) 61.72%, rgba(255, 255, 255, 0.1) 104.87%);
+            border-radius: 10px;
+            margin: 100px auto 60px auto;
+        }
+        
+        .box-content {
+            padding: 48px 250px 0 60px;
+        }
+        
+        .box-content h2 {
+            margin-bottom: 30px;
+            padding-right: 280px;
+            color: #160041;
+        }
+        
+        .box-content p {
+            font-weight: 500;
+            font-size: 12px;
+            color: rgba(22, 0, 65, 0.5);
+        }
+        
+        .box-content img {
+            width: 65%;
+            margin-left: 600px;
+            margin-top: -360px;
+        }
+        
+        .card-kategori {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .list-kelas {
+            text-align: center;
+        }
+        
+        .kategori-kelas {
+            padding-top: 30px;
+            margin: 0 30px;
+        }
+        
+        .kategori-kelas li {
+            padding: 15px 20px;
+        }
+        
+        .kategori-kelas:hover {
+            background: linear-gradient(145deg, rgba(66, 133, 235, 0.1) -2.8%, rgba(255, 3, 154, 0.1) 52.03%, rgba(244, 240, 252, 0.1) 98.42%);
+            border-radius: 20px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .kategori-kelas li:hover {
+            background: linear-gradient(90deg, rgba(234, 234, 250, 0) 1.94%, rgba(66, 133, 235, 0.15) 100%);
+            border-radius: 20px;
+        }
+        /* End Ketegori Kelas */
+        /* Testimoni */
+        
+        .testimoni {
+            margin: 60px 160px 0px 160px;
+        }
+        
+        .testimoni .testimoni-content h1 {
+            font-size: 5vmin;
+            font-weight: 600;
+            padding-right: 460px;
+            padding-bottom: 30px;
+        }
+        
+        .testimoni .testimoni-content p {
+            font-weight: 500;
+            font-size: 12px;
+            color: rgba(22, 0, 65, 0.5);
+            padding-right: 360px;
+        }
+        
+        .testimoni-content {
+            margin-bottom: 60px;
+        }
+        
+        .testimoni-card {
+            width: 280px;
+            height: 340px;
+            background: linear-gradient(325.83deg, rgba(255, 255, 255, 0.1) 2.13%, rgba(255, 255, 255, 0.1) 2.13%, rgba(255, 255, 255, 0.25) 100%);
+            border: 5px solid rgba(252, 252, 254, 0.5);
+            box-sizing: border-box;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(20px);
+            border-radius: 0px 25px;
+            padding: 20px 10px;
+        }
+        
+        .testimoni-card .profile {
+            padding-left: 10px;
+        }
+        
+        .profile .foto img {
+            width: 55px;
+            height: 55px;
+        }
+        
+        .profile .nama-profesi {
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+        
+        .profile .nama-profesi h2 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #160041;
+        }
+        
+        .profile .nama-profesi p {
+            font-weight: 500;
+            font-size: 12px;
+            color: #592BAE;
+            padding-right: 10px;
+        }
+        
+        .testimoni-card .profile {
+            display: flex;
+            justify-content: left;
+        }
+        
+        .testimoni-card .rating {
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .testimoni-card .rating img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .testimoni-card .komentar p {
+            font-size: 12px;
+            padding: 5px 10px;
+            color: #353535;
+        }
+        
+        .testimoni-card .sosmed {
+            margin: 20px 10px 20px 10px;
+        }
+        
+        .testimoni-card .sosmed img {
+            width: 21px;
+            height: 21px;
+        }
+        
+        .testimoni-group {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .vektor .vektor-1 img {
+            width: 600px;
+            margin-left: -240px;
+            margin-top: -100px;
+            margin-bottom: 100px;
+        }
+        
+        .vektor .vektor-2 img {
+            width: 520px;
+            float: right;
+            margin-right: -160px;
+            margin-top: -200px;
+            margin-bottom: 100px;
+        }
+        
+        .testimoni-card:hover {
+            box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+        /* End Testimoni */
+        /* Daftar & login */
+        
+        .daftar-login {
+            width: 100vw;
+            height: 100vh;
+            background-image: url('../img/bg-1.png');
+            background-position: bottom;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .daftar-login-content {
+            padding: 15px 35px 15px 35px;
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            position: absolute;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #160041;
+            text-align: center;
+        }
+        
+        .daftar-login-content img {
+            transition: 0.4s;
+        }
+        
+        .daftar-login-content img:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            border-radius: 50px;
+        }
+        
+        .daftar-login-content h2 {
+            text-align: center;
+            font-family: 'Poppins';
+            letter-spacing: 0.2px;
+            font-size: 20px;
+            color: #160041;
+            line-height: 60px;
+            font-weight: bold;
+        }
+        
+        .daftar-login-content h3 {
+            text-align: center;
+            font-family: 'Poppins';
+            letter-spacing: 0.2px;
+            font-size: 20px;
+            color: #160041;
+            line-height: 50px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        
+        .daftar-login-content .text p {
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 0.2px;
+            font-size: 12px;
+            color: #7D7D7D;
+            padding-top: 15px;
+        }
+        
+        .daftar-login-content h4 {
+            text-align: left;
+            width: 98%;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+        
+        .belum-daftar {
+            width: 55%;
+            padding-top: 10px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .input-div {
+            max-width: 400px;
+            width: 95%;
+            height: 29px;
+            background-color: #f0f0f0;
+            margin: 10px;
+            border-radius: 55px;
+            display: grid;
+            grid-template-columns: 5% 85%;
+            padding: 10px;
+        }
+        
+        .input-div i {
+            background: none;
+        }
+        
+        .input {
+            background: none;
+            outline: none;
+            border: none;
+            line-height: 1;
+            font-weight: 525;
+            font-size: 1rem;
+            color: #160041;
+        }
+        
+        .remember {
+            margin-right: 270px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .syarat {
+            margin-right: 100px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .btn {
+            width: 400px;
+            height: 50px;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: #0A60FF;
+            color: #FFFFFF;
+            margin: 10px 0;
+            font-family: "Poppins";
+            font-weight: 100;
+            font-size: 20px;
+            transition: 0.4s;
+        }
+        
+        .btn:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        /* End Daftar & Login */
+        /* Navbar Explore*/
+        
+        .explore-navbar {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            justify-content: space-around;
+            padding-top: 8px;
+            color: #160041;
+            background: linear-gradient(135.74deg, rgba(255, 255, 255, 0.5) 2.83%, rgba(255, 255, 255, 0) 100%);
+            backdrop-filter: blur(15px);
+            z-index: 10;
+        }
+        
+        .explore-navbar .logo {
+            cursor: pointer;
+            font-size: 24px;
+            color: #160041;
+            font-weight: 700;
+            padding-top: 10px;
+        }
+        
+        .explore-nav-links {
+            display: flex;
+            align-items: center;
+        }
+        
+        .expore-nav-links li {
+            margin: 0 10px;
+        }
+        
+        .explore-nav-links li a {
+            padding: 6px 16px;
+            border-radius: 10px;
+            color: #160041;
+        }
+        
+        .explore-nav-links li a:hover {
+            background-color: #160041;
+            color: white;
+            animation: fadeIn 2s ease;
+        }
+        
+        .explore-nav-links li i {
+            background: none;
+            margin-right: auto;
+        }
+        
+        .explore-nav-links li img {
+            width: 55px;
+            cursor: pointer;
+            transition: 0.4s;
+            border-radius: 50px;
+        }
+        
+        .explore-nav-links li img:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        /* Dropdown */
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            outline: none;
+        }
+        
+        .dropbtn {
+            color: #160041;
+            font-size: 17px;
+            padding: 7px 16px;
+            border-radius: 10px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: linear-gradient(135.74deg, rgba(255, 255, 255, 0.5) 10.83%, rgba(255, 255, 255, 0) 100%);
+            border-radius: 10px;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            animation: fadeIn 1s ease;
+        }
+        
+        .dropdown-content a {
+            border-radius: 8px;
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: #160041;
+            color: white;
+            animation: fadeIn 2s ease;
+        }
+        
+        .dropdown-content a:hover {
+            background: linear-gradient(90deg, rgba(234, 234, 250, 0) 1.94%, rgba(66, 133, 235, 0.15) 100%);
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* End Dropdown */
+        /* End Navbar Explore */
+        /* Header-Explore */
+        
+        .explore-header {
+            height: 100vh;
+            background-image: url('../img/bg-1.png');
+            background-position: bottom;
+            background-size: cover;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        
+        .explore-header-content {
+            margin-bottom: 10px;
+            color: #160041;
+            text-align: center;
+        }
+        
+        .explore-glass-content {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -85%);
+        }
+        
+        .explore-glass {
+            width: 419px;
+            height: 149.29px;
+            left: 516px;
+            top: 515.69px;
+            background: linear-gradient(135.74deg, rgba(255, 255, 255, 0.5) 2.83%, rgba(255, 255, 255, 0) 100%);
+            border: 4px solid rgba(241, 241, 241, 0.75);
+            box-sizing: border-box;
+            backdrop-filter: blur(6px);
+            border-radius: 20px;
+            box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            animation: fadeIn 1.5s ease;
+        }
+        
+        .explore-glass .text-person {
+            padding-top: 30px;
+        }
+        
+        .explore-ellipse1 img {
+            width: 90px;
+            margin-left: -410px;
+            margin-top: -500px;
+            margin-bottom: 110px;
+            z-index: -1;
+        }
+        
+        .explore-ellipse2 img {
+            width: 150px;
+            margin-top: -110px;
+            margin-right: -400px;
+            margin-bottom: 120px;
+            z-index: -1;
+        }
+        
+        .box {
+            margin-bottom: 100px;
+        }
+        
+        .explore-header-content h1 {
+            font-size: 56px;
+            font-weight: bold;
+            animation: fadeIn 5s;
+        }
+        
+        .explore-header-content h5 {
+            animation: fadeIn 5s;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .button-range ul {
+            list-style-type: none;
+            margin: 10px;
+            overflow: hidden;
+        }
+        
+        .button-range ul li a {
+            color: #160041;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            padding: 5px 25px;
+            border-radius: 10px;
+        }
+        
+        .button-range ul li a:hover {
+            border: 5px 25px;
+            border-radius: 5px;
+            background-color: #160041;
+            color: white;
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        .button-range ul li {
+            background: #FFFFFF;
+            border-radius: 5px;
+            color: #160041;
+            margin: 15px;
+            pad: 10px;
+            float: left;
+        }
+        /* End Header-Explore */
+        /* Kelas Coding & Desain*/
+        
+        .kelas {
+            background-image: url(../img/bg-2.svg);
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 3vmin;
+            font-weight: bold;
+        }
+        
+        .title h2 {
+            padding-top: 25PX;
+            animation: slideUp 2.0s ease;
+        }
+        
+        .title h5 {
+            animation: slideUp 2.0s ease;
+        }
+        
+        .row {
+            display: flex;
+            align-items: center;
+            padding: 45px;
+            justify-content: space-evenly;
+            animation: slideUp 4.5s forwards 1;
+        }
+        
+        .row .card img {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .row .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.4s;
+            width: 25%;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .contain {
+            padding: 2px 16px;
+        }
+        /* End Kelas Coding & Desain*/
+        /* Sub Kelas */
+        
+        main {
+            background-image: url(../img/bg-1.png);
+            height: 100vh;
+            margin: 0;
+            padding-top: 160px;
+        }
+        
+        .row-sub .video {
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.5s;
+            width: 45%;
+            border-radius: 10px;
+            padding: 2px;
+        }
+        
+        .video:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .row-sub .lesson {
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.5s;
+            width: 35%;
+            border-radius: 10px;
+            padding: 2px;
+        }
+        
+        .row-sub {
+            margin-bottom: 90px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-evenly;
+            animation: slideUp 1.5s forwards 1;
+        }
+        
+        .row-sub .lesson ul {
+            padding: 10px;
+        }
+        
+        .row-sub .lesson ul li {
+            color: #160041;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: #ddd;
+            border-radius: 50px;
+            padding: 10px 100px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+        .row-sub .lesson ul li img {
+            width: 20px;
+        }
+        /* End Sub Kelas */
+        /* Tombol Navigasi SlideUp */
+        
+        .to-top {
+            position: fixed;
+            width: 30px;
+            height: 30px;
+            bottom: 40px;
+            right: 50px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all .4s;
+        }
+        
+        .to-top.active {
+            bottom: 32px;
+            pointer-events: auto;
+            opacity: 1;
+        }
+        
+        .to-top img {
+            width: 55px;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+        
+        .to-top img:hover {
+            width: 60px;
+        }
+        /* End Tombol Navigasi SlideUp */
+        /* Footer */
+        
+        footer {
+            background-image: url(../img/bg-1.png);
+            background-position: bottom;
+            background-size: cover;
+            color: #160041;
+        }
+        
+        footer .list-inline {
+            justify-content: center;
+        }
+        
+        footer ul {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        footer .copyright {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+        
+        footer ul li {
+            padding: 10px;
+        }
+        /* End Footer */
+        /* Key Frames */
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes slideUp {
+            0% {
+                transform: translateY(250px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }

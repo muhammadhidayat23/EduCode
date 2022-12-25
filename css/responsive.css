@@ -1,0 +1,330 @@
+/* Ukuran Tablet */
+
+@media all and (max-width: 1024px) {
+    /* Navbar */
+    .nav-links li {
+        margin: 0 10px;
+    }
+    .nav-links li a {
+        font-size: 14px;
+    }
+    /* End Navbar */
+    /* Header */
+    .header-content h1 {
+        font-size: 24px;
+    }
+    .people-content img {
+        display: none;
+    }
+    .cek {
+        margin-left: 30px;
+    }
+    /* End Header */
+    /* Kelas Favorit */
+    .class-wrapper {
+        width: 550px;
+        height: 180px;
+        margin: 330px auto 0 auto;
+        padding: 0 20px;
+    }
+    .favorit-class {
+        padding: 0;
+        font-size: 12px;
+    }
+    .favorit-class {
+        text-align: center;
+    }
+    .line-vertikal {
+        height: 130px;
+        margin-right: 50px;
+    }
+    .category {
+        display: flex;
+    }
+    .category img {
+        padding: 0 30px;
+        width: 45px;
+        margin-right: 10px;
+    }
+    .category-class p {
+        font-size: 14px;
+    }
+    /* End Kelas Favorit */
+    /* Tentang EduCode */
+    .glass-tentang {
+        width: 500px;
+        height: 520px;
+        padding: 0;
+    }
+    .glass-tentang p {
+        display: none;
+    }
+    .glass-tentang img {
+        width: 450px;
+    }
+    .ball-1 img {
+        width: 150px;
+        height: 150px;
+        margin-left: -480px;
+        margin-top: 160px;
+    }
+    .ball-2 img {
+        width: 200px;
+        height: 200px;
+        margin-right: -460px;
+        margin-top: -150px;
+    }
+    .ball-3 img {
+        width: 100px;
+        height: 100px;
+        margin-top: 160px;
+        margin-left: -430px;
+    }
+    /* End Tetang EduCode */
+    /* Kategori Kelas */
+    .box-gradient {
+        width: 600px;
+        height: 250px;
+        margin: 100px auto 60px auto;
+    }
+    .box-content h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding-right: 10px;
+    }
+    .box-content p {
+        font-size: 12px;
+    }
+    .box-content img {
+        width: 350px;
+        margin-left: 220px;
+        margin-top: -340px;
+        margin-bottom: 10px;
+    }
+    .card-kategori {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    /* End Kategori kelas */
+    /* Testimoni */
+    .testimoni {
+        margin: 0;
+    }
+    .testimoni .testimoni-content p {
+        display: none;
+    }
+    .testimoni .testimoni-content h1 {
+        font-size: 24px;
+        padding: 50px 20px 20px 20px;
+        text-align: center;
+    }
+    .testimoni-group {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        margin: 10px 125px 0px 125px;
+    }
+    .vektor img {
+        display: none;
+    }
+    /* End Testimoni */
+}
+
+
+/* Ukuran Mobile */
+
+@media only screen and (max-width:670px) {
+    /* Navbar */
+    .navbar {
+        padding: 0;
+    }
+    .navbar .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 3;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: whitesmoke;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+        z-index: 2;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+    }
+    .menu-btn {
+        display: block;
+        z-index: 2;
+    }
+    /* End Navbar */
+    /* Header */
+    .header-content h1 {
+        font-size: 4vmin;
+    }
+    .people-content img {
+        display: none;
+    }
+    .glass {
+        width: 80%;
+        padding: 0 20px 0 20px;
+    }
+    .glass img {
+        width: 20px;
+    }
+    .glass .teks-glass h1 {
+        font-size: 24px;
+    }
+    .glass .teks-glass p {
+        font-size: 12px;
+    }
+    .cek {
+        display: none;
+    }
+    .glass {
+        width: 250px;
+        height: 149.29px;
+        margin: -80px auto 20px auto;
+    }
+    .ellipse1 img {
+        width: 80px;
+        margin-left: 5px;
+        margin-top: -100px;
+        margin-bottom: 5px;
+    }
+    .ellipse2 img {
+        width: 100px;
+        margin-left: 220px;
+        margin-top: -235px;
+        margin-bottom: 200px;
+    }
+    /* End Header */
+    /* Kelas Favorit */
+    .class-wrapper {
+        width: 350px;
+        height: 150px;
+        margin: 250px auto 0 auto;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .favorit-class {
+        padding: 0;
+        font-size: 12px;
+    }
+    .favorit-class {
+        text-align: center;
+    }
+    .line-vertikal {
+        display: none;
+    }
+    .category {
+        display: flex;
+    }
+    .category img {
+        padding: 0 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+    .category-class p {
+        font-size: 12px;
+    }
+    /* End Kelas Favorit */
+    /* Tentang EduCode */
+    .glass-tentang {
+        width: 300px;
+        height: 400px;
+        padding: 0;
+    }
+    .glass-tentang p {
+        display: none;
+    }
+    .glass-tentang img {
+        width: 250px;
+    }
+    .ball-1 img {
+        width: 90px;
+        height: 90px;
+        margin-left: -300px;
+        margin-top: 320px;
+    }
+    .ball-2 img {
+        width: 140px;
+        height: 140px;
+        margin-right: -320px;
+        margin-top: -150px;
+    }
+    .ball-3 img {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+        margin-left: -260px;
+    }
+    /* End Tetang EduCode */
+    /* Kategori Kelas */
+    .box-gradient {
+        width: 350px;
+        height: 150px;
+        margin: 100px auto 60px auto;
+    }
+    .box-content h2 {
+        font-size: 14px;
+        margin-bottom: 100px;
+    }
+    .box-content p {
+        display: none;
+        font-size: 12px;
+    }
+    .box-content img {
+        width: 250px;
+        margin-left: 100px;
+        margin-top: -340px;
+        margin-bottom: 100px;
+    }
+    /* End Kategori kelas */
+    /* Testimoni */
+    .testimoni {
+        margin: 0;
+    }
+    .testimoni .testimoni-content p {
+        display: none;
+    }
+    .testimoni .testimoni-content h1 {
+        font-size: 24px;
+        padding: 50px 20px 20px 20px;
+        text-align: center;
+    }
+    .testimoni-group {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin: 10px 125px 0px 125px;
+    }
+    .vektor .vektor-1 img {
+        width: 500px;
+        margin-left: -20px;
+        margin-top: -900px;
+        margin-bottom: 800px;
+    }
+    .vektor .vektor-2 img {
+        width: 500px;
+        float: right;
+        margin-right: 0px;
+        margin-top: -200px;
+        margin-bottom: 100px;
+    }
+    /* End Testimoni */
+    footer a {
+        font-size: 12px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
